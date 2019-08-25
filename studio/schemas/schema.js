@@ -26,15 +26,15 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-    siteSettings,
+    // siteSettings,
     post,
-    category,
-    author,
+    // category,
+    // author,
     mainImage,
-    authorReference,
-    bodyPortableText,
-    bioPortableText,
-    excerptPortableText
+    // authorReference,
+    bodyPortableText
+    // bioPortableText,
+    // excerptPortableText
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas

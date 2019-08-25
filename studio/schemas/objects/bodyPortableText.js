@@ -40,17 +40,19 @@ export default {
           }
         ]
       },
-      of: [{type: 'authorReference'}]
+      // of: [{type: 'authorReference'}]
+      of: [{type: 'string'}]
     },
     // You can add additional types here. Note that you can't use
     // primitive types such as 'string' and 'number' in the same array
     // as a block type.
     {
-      type: 'mainImage',
+      // type: 'mainImage',
+      type: 'image',
       options: {hotspot: true}
-    },
-    {
-      type: 'code'
     }
+    // {
+    //   type: 'code'
+    // }
   ]
 }

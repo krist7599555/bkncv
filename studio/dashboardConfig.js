@@ -1,11 +1,11 @@
 export default {
   widgets: [
-    {
-      name: 'sanity-tutorials',
-      options: {
-        templateRepoId: 'sanity-io/sanity-template-gatsby-blog'
-      }
-    },
+    // {
+    //   name: 'sanity-tutorials',
+    //   options: {
+    //     templateRepoId: 'sanity-io/sanity-template-gatsby-blog'
+    //   }
+    // },
     {name: 'structure-menu'},
     {
       name: 'project-info',
@@ -14,8 +14,8 @@ export default {
           {
             name: 'netlify',
             options: {
-              description:
-                'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
+              // description:
+              //   'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
                   buildHookId: '5d62b5ed6c8636ec864d601f',
@@ -43,11 +43,11 @@ export default {
         ]
       }
     },
-    {name: 'project-users', layout: {height: 'auto'}},
     {
       name: 'document-list',
       options: {title: 'Recent blog posts', order: '_createdAt desc', types: ['post']},
       layout: {width: 'medium'}
     }
+    // {name: 'project-users', layout: {height: 'auto'}}
   ]
 }

@@ -32,33 +32,34 @@ export default {
       type: 'mainImage',
       title: 'Main image'
     },
-    {
-      name: 'excerpt',
-      type: 'excerptPortableText',
-      title: 'Excerpt',
-      description:
-        'This ends up on summary pages, on Google, when people share your post in social media.'
-    },
-    {
-      name: 'authors',
-      title: 'Authors',
-      type: 'array',
-      of: [
-        {
-          type: 'authorReference'
-        }
-      ]
-    },
+    // {
+    //   name: 'excerpt',
+    //   type: 'excerptPortableText',
+    //   title: 'Excerpt',
+    //   description:
+    //     'This ends up on summary pages, on Google, when people share your post in social media.'
+    // },
+    // {
+    //   name: 'authors',
+    //   title: 'Authors',
+    //   type: 'array',
+    //   of: [
+    //     {
+    //       type: 'authorReference'
+    //     }
+    //   ]
+    // },
     {
       name: 'categories',
       type: 'array',
       title: 'Categories',
       of: [
         {
-          type: 'reference',
-          to: {
-            type: 'category'
-          }
+          type: 'string'
+          // type: 'reference',
+          // to: {
+          //   type: 'category'
+          // }
         }
       ]
     },
