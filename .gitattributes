@@ -1,3 +1,4 @@
 studio/**.js linguist-vendored
 web/**.js linguist-vendored
-*.svelte linguist-language=Svelte
+*.svelte linguist-language=svelte
+*.html linguist-language=svelte
