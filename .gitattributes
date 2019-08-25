@@ -1,3 +1,3 @@
-studio/**.js linguist-vendored=true
-web/**.js linguist-vendored=true
-*.svelte linguist-vendored=false
+studio/**.js linguist-vendored
+web/**.js linguist-vendored
+*.svelte linguist-language=Svelte
