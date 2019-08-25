@@ -1,2 +1,2 @@
-studio/* linguist-vendored
-web linguist-vendored=false
+studio/** linguist-vendored
+
